@@ -1,2 +1,1 @@
-# birdbotfordiscord
-//Hi, so like, this is my bot. Kinda cool huh. Who knew an AP Comp Sci A kid could do all this stuff? Anyway, this is everything BirdBot has to offer. Yeah. That's about it. Fancy eBird integration, y'know.
+Hi, welcome to BirdBot. BirdBot is the first bot for Discord (that I know of) that offers eBird API integration. Either dig into commands, or run %help on a server BirdBot is in to see a complete command list.
