@@ -35,7 +35,7 @@ public class bandcode extends Command {
             Request request = new Request.Builder()
                     .url(urlToUse)
                     .method("GET", null)
-                    .addHeader("X-eBirdApiToken", "idnbs3hmk5lf")
+                    .addHeader("X-eBirdApiToken", "{{eBird API TOKEN}}")
                     .build();
             Response res = client.newCall(request).execute();
             if (!res.isSuccessful()) {
