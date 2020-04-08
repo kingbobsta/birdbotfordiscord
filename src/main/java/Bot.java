@@ -14,14 +14,14 @@ public class Bot {
 
         String activity = "%help | being built";
 
-        JDA jda = new JDABuilder("{BOT API KEY}").build();
+        JDA jda = new JDABuilder("{{BOT API KEY}}").build();
 
         CommandClientBuilder cBuilder = new CommandClientBuilder();
 
         cBuilder.setActivity(Activity.playing(activity));
 
         //jda-util setup
-        cBuilder.setOwnerId("692619256294015016");
+        cBuilder.setOwnerId("{{OWNER'S DISCORD ID}}");
         cBuilder.setPrefix("%");
         cBuilder.setHelpWord("help");
 
