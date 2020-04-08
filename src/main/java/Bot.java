@@ -14,7 +14,7 @@ public class Bot {
 
         String activity = "%help | being built";
 
-        JDA jda = new JDABuilder("NjkyNjE5MjU2Mjk0MDE1MDE2.Xn0c0g.Hqr4brUoCtsvL_AW66IetFls5XY").build();
+        JDA jda = new JDABuilder("{BOT API KEY}").build();
 
         CommandClientBuilder cBuilder = new CommandClientBuilder();
 
