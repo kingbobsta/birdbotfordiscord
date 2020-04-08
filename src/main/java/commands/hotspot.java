@@ -61,7 +61,7 @@ public class hotspot extends Command {
                         Request request = new Request.Builder()
                                 .url(urlThing)
                                 .method("GET", null)
-                                .addHeader("X-eBirdApiToken", "idnbs3hmk5lf")
+                                .addHeader("X-eBirdApiToken", "{{eBird API Token}}")
                                 .build();
                         Response res = client.newCall(request).execute();
                         if (!res.isSuccessful()){
@@ -93,7 +93,7 @@ public class hotspot extends Command {
                 Request request = new Request.Builder()
                         .url(urlToUse)
                         .method("GET", null)
-                        .addHeader("X-eBirdApiToken", "idnbs3hmk5lf")
+                        .addHeader("X-eBirdApiToken", "{{eBird API Token}}")
                         .build();
                 Response res = client.newCall(request).execute();
                 if (!res.isSuccessful()){
